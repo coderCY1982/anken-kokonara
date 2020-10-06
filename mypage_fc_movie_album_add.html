@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>トップページ</title>
+
+    <!--//////////////     viewport設定     //////////////-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--//////////////     検索エンジン向け設定     //////////////-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="Copyright" content="">
+
+    <!--//////////////     Twitter Account設定     //////////////-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="**アカウント名**">
+
+    <!--//////////////     OGP Metaタグ設定     //////////////-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="**サイトのURL**">
+    <meta property="og:title" content="**タイトル**">
+    <meta property="og:image" content="**使用する画像URL**">
+    <meta property="og:description" content="**サイトの説明**">
+    <meta property="og:site_name" content="**サイト名**">
+    <meta property="og:locale" content="ja_JP">
+
+    <!--//////////////     お気に入りアイコン設定     //////////////-->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <link rel="stylesheet" href="css/trunk-all.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId      : /** appidを入れる **/,
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script><div class="l-drawer-bg js-drawer-hide"></div>
+<div class="l-drawer modi-left">
+    <header class="drawer-header">
+        <img src="img/logo.png" alt="hottie" class="logo-main">
+        <p class="menu-text">MENU</p>
+        <form action="#" class="menu-search">
+            <input type="text" placeholder="キーワードを入力" class="search-box">
+            <button type="submit" class="search-button"><img src="img/icon-search.png" alt="" class="search-image"></button>
+        </form>
+    </header>
+    <ul class="drawer-list">
+        <li class="inner-list"><a href="#"><img src="img/icon-login.png" alt="" class="image-icon image-login">ログイン・会員登録</a></li>
+        <li class="inner-list"><a href="#"><img src="img/icon-smile.png" alt="" class="image-icon image-smile">マイページ</a></li>
+        <li class="inner-list"><a href="#" class="modi-notifi-count" data-count="5"><img src="img/icon-bell.png" alt="" class="image-icon image-bell">お知らせ</a></li>
+        <li class="inner-list"><a href="#"><img src="img/icon-cart.png" alt="" class="image-icon image-cart">カート</a></li>
+        <li class="inner-list"><a href="#"><img src="img/icon-star.png" alt="" class="image-icon image-star">推しているファンクラブ</a></li>
+        <li class="inner-list"><a href="#">ファンクラブランキング</a></li>
+        <li class="inner-list"><a href="#">タグからファンクラブを探す</a></li>
+        <li class="inner-list"><a href="#">特定商取引法に基づく表示</a></li>
+        <li class="inner-list"><a href="#">プライバシポリシー</a></li>
+        <li class="inner-list"><a href="#">利用規約</a></li>
+        <li class="inner-list"><a href="#">お問い合わせ・よくあるご質問</a></li>
+        <li class="inner-list"><a href="#">ログアウト</a></li>
+    </ul>
+    <ul class="social-list">
+        <li class="inner-list"><a href="#"><img src="img/icon-twitter.png" alt="" width="40"></a></li>
+        <li class="inner-list"><a href="#"><img src="img/icon-instagram.png" alt="" width="33"></a></li>
+        <li class="inner-list"><a href="#"><img src="img/icon-youtube.png" alt="" width="47"></a></li>
+    </ul>
+    <footer class="drawer-footer">©2020 HOTTIE</footer>
+</div>
+<div class="l-wrapper">
+        <header class="l-header" role="banner">
+    <div class="pc-header">
+        <div class="left-area">
+            <a href="#" class="logo-area"><img src="img/logo.png" alt="hottie" class="main-logo"></a>
+            <div class="search-area">
+                <input type="text" class="search-box" placeholder="キーワードを入力">
+                <button class="search-button"><img src="img/icon-search.png" alt=""></button>
+            </div>
+        </div>
+        <nav class="pc-navigation">
+            <a href="#" class="login-link">ログイン・会員登録</a>
+            <ul class="menu-list">
+                <li class="list-inner"><a href="#"><img src="img/icon-heart-white.png" alt="" class="image-heart"></a></li>
+                <li class="list-inner"><a href="#" class="modi-notifi-count" data-count="5"><img src="img/icon-cart.png" alt="" class="image-cart"></a></li>
+                <li class="list-inner"><a href="#"><img src="img/icon-bell.png" alt="" class="image-bell"></a></li>
+                <li class="list-inner"><a href="#"><img src="img/icon-smile.png" alt="" class="image-smile"></a></li>
+                <li class="list-inner"><a href="#" class="js-drawer-show"><img src="img/icon-menu.png" alt="" class="image-menu"></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mobile-header">
+        <nav class="navigation-area" role="navigation">
+            <ul class="menu-list">
+                <li class="list-inner">
+                    <a href="#anchor-logo" class="js-drawer-show">
+                        <img src="img/icon-menu.png" alt="" class="image-menu">
+                        <p class="menu-text">MENU</p>
+                    </a>
+                </li>
+                <li class="list-inner">
+                    <a href="#anchor-logo">
+                        <img src="img/icon-smile.png" alt="" class="image-smile">
+                        <p class="menu-text">MYPAGE</p>
+                    </a>
+                </li>
+                <li class="list-inner">
+                    <a href="#anchor-logo">
+                        <img src="img/icon-login.png" alt="" class="image-login">
+                        <p class="menu-text">LOG IN</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="logo-area"><img src="img/logo.png" alt="hottie" class="main-logo"></a>
+        <nav class="navigation-area" role="navigationt">
+            <ul class="menu-list modi-right">
+                <li class="list-inner">
+                    <a href="#anchor-logo">
+                        <img src="img/icon-cart.png" alt="" class="image-cart">
+                        <p class="menu-text">CART</p>
+                    </a>
+                </li>
+                <li class="list-inner">
+                    <a href="#anchor-logo">
+                        <img src="img/icon-search.png" alt="" class="image-search">
+                        <p class="menu-text">SEARCH</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="l-main" role="main">
+        <div class="l-mypage">
+            <nav class="mypage-menu">
+    <h2 class="menu-header">MyPage</h2>
+    <ul class="mypage-menu-list">
+        <li class="inner-list"><a href="#">会員登録情報</a></li>
+        <li class="inner-list"><a href="#">ファンクラブ情報</a></li>
+        <li class="inner-list"><a href="#">質問送信箱</a></li>
+        <li class="inner-list"><a href="#" class="modi-notifi-count" data-count="4">質問受信箱</a></li>
+        <li class="inner-list"><a href="#">ファンクラブ通信送信箱</a></li>
+        <li class="inner-list"><a href="#" class="modi-notifi-count" data-count="4">ファンクラブ通信受信箱</a></li>
+    </ul>
+</nav><div class="l-mypage-content">
+                <header class="mypage-header">
+                    <h2 class="mypage-title">ムービー情報を編集</h2>
+                    <a href="#" class="back-to-button"><img src="img/icon-back.png" alt="" class="back-icon">戻る</a>
+                </header>
+                <div class="mypage-album-add-area">
+                    <div class="album-add-image">
+                        <input type="file" name="" id="add-image-form" class="hide-file-name">
+                        <label for="add-image-form" class="add-movie-label">
+                            <div class="add-message">
+                                ドラッグまたは、クリックして<br>
+                                動画をアップロードできます。
+                            </div>
+                        </label>
+                        <a href="#" class="link-movie-change">動画の差し替え</a>
+                    </div>
+                    <div class="album-add-form">
+                        <ul class="photo-form-list u-pc-mb_50 u-sp-mb_20">
+                            <li class="list-inner">
+                                <label for="" class="form-label">タイトル</label>
+                                <input type="text" class="form-input-normal modi-full u-pc-mb_5 u-sp-mb_5" placeholder="タイトルを入力">
+                                <p class="text-caution-message">1〜40文字で指定してください。</p>
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">説明</label>
+                                <input type="text" class="form-input-normal modi-full u-pc-mb_5 u-sp-mb_5" placeholder="説明を入力">
+                                <p class="text-caution-message">1〜40文字で指定してください。</p>
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">公開開始日時</label>
+                                <input type="datetime"" class="form-input-normal u-pc-mb_5 u-sp-mb_5" placeholder="2020.09.15 15:00">
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">公開終了日時</label>
+                                <input type="datetime"" class="form-input-normal u-pc-mb_5 u-sp-mb_5" placeholder="2020.09.15 15:00">
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">公開状況</label>
+                                <label class="form-radio-label"><input type="radio" name="status" id="">公開</label>
+                                <label class="form-radio-label"><input type="radio" name="status" id="">非公開</label>
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">サポートレベル</label>
+                                <select name="" id="" class="form-select-normal">
+                                    <option value="">ブロンズ</option>
+                                </select>
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">購入ポイント数</label>
+                                <input type="number" class="form-input-normal u-pc-mb_5 u-sp-mb_5" placeholder="購入ポイント数を入力（半角数字）">
+                                <p class="text-caution-message">指定された場合はポイントでの購入がサポートレベルよりも優先されます</p>
+                            </li>
+                            <li class="list-inner">
+                                <label for="" class="form-label">表示順序</label>
+                                <input type="number" class="form-input-normal u-pc-mb_5 u-sp-mb_5" placeholder="表示順序数を入力（半角数字）">
+                                <p class="text-caution-message">表示順序が同じ場合は更新日時が新しいほど順序が上がります</p>
+                            </li>
+                        </ul>
+                        <div class="area-button">
+                            <button type="submit" class="button-normal modi-pink"">更新する</button>
+                            <button type="submit" class="button-normal"">キャンセル</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="l-footer" role="contentinfo">
+    <nav class="foot-nav">
+        <ul class="list-foot-menu">
+            <li class="list-inner"><a href="#">ログアウト</a></li>
+            <li class="list-inner"><a href="#">特定商取引法に基づく表示</a></li>
+            <li class="list-inner"><a href="#">プライバシポリシー</a></li>
+            <li class="list-inner"><a href="#">利用規約</a></li>
+            <li class="list-inner"><a href="#">お問い合わせ</a></li>
+        </ul>
+    </nav>
+    <small class="copyright">©2020 HOTTIE</small>
+</footer></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script></body>
+</html>
